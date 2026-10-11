@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "name": "brush",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Item 2"
+    },
+    {
+      "name": "shampoo",
+      "id": "8QikL_pNujk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -16,7 +16,7 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 // මෙතැනට ඔයාගේ Back-end API එකේ URL එක දාන්න (ဥပမာ: http://localhost:8080/api/items)
-const API_URL = 'https://api.example.com/items';
+const API_URL = 'http://localhost:5000/items';
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [items, setItems] = useState<Item[]>([]);
